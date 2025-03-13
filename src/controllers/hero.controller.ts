@@ -4,7 +4,7 @@ import {
   HeroService,
   type TCreateHeroRequest,
   type TUpdateHeroRequest
-} from "services/hero.service";
+} from "../services/hero.service";
 
 export const HeroController = {
   async getAllHeroes(req: Request, res: Response, next: NextFunction) {

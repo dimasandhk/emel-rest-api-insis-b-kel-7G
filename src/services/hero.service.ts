@@ -1,4 +1,4 @@
-import { Hero } from "models/hero.model";
+import { Hero } from "../models/hero.model";
 
 export interface TCreateHeroRequest {
   name: string;
